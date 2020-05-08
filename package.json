@@ -1,0 +1,36 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~10.0.0-next.4",
+    "@angular/common": "~10.0.0-next.4",
+    "@angular/compiler": "~10.0.0-next.4",
+    "@angular/core": "~10.0.0-next.4",
+    "@angular/forms": "~10.0.0-next.4",
+    "@angular/platform-browser": "~10.0.0-next.4",
+    "@angular/platform-browser-dynamic": "~10.0.0-next.4",
+    "@angular/router": "~10.0.0-next.4",
+    "rxjs": "~6.5.4",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.1000.0-next.3",
+    "@angular/cli": "~10.0.0-next.3",
+    "@angular/compiler-cli": "~10.0.0-next.4",
+    "@angular/language-service": "~10.0.0-next.4",
+    "@types/node": "^12.11.1",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0",
+    "typescript": "~3.8.3"
+  }
+}
