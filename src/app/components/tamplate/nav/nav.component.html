@@ -1,0 +1,21 @@
+<mat-drawer-container class="container">
+    <mat-drawer mode="side" opened class="side-nav">
+        <mat-nav-list class="nav-list">
+            <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/" mat-list-item>
+                <i class="material-icons">
+                    home
+                </i>
+                Início
+            </a>
+            <a routerLinkActive="active" routerLink="products" mat-list-item>
+                <i class="material-icons">
+                    storefront
+                </i>
+                Produtos
+            </a>
+        </mat-nav-list>
+    </mat-drawer>
+    <mat-drawer-content>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>

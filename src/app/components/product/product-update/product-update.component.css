@@ -1,0 +1,10 @@
+form, .btn-wraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.btn-wraper {
+    flex-direction: row;
+}

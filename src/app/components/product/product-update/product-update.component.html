@@ -1,0 +1,16 @@
+<mat-card class="mat-elevation-z3">
+    <mat-card-title>Atualizar Produto</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input type="text" matInput placeholder="Nome" autocomplete="off" name="name" [(ngModel)]="product.name"/>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input type="number" matInput placeholder="Preço (R$)" autocomplete="off" name="price" [(ngModel)]="product.price"/>
+        </mat-form-field>
+    </form>
+    <div class="btn-wraper">
+        <button mat-raised-button (click)="updateProduct()" color="primary">Atualizar</button>
+        <button mat-raised-button (click)="cancel()">Cancelar</button>
+    </div>
+</mat-card>
