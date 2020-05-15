@@ -1,0 +1,16 @@
+<mat-card class="mat-elevation-z3">
+    <mat-card-title>Excluir Produto</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input type="text" disabled matInput placeholder="Nome" [value]="product.name" autocomplete="off"/>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input type="number" disabled matInput placeholder="Preço (R$)" [value]="product.price" autocomplete="off"/>
+        </mat-form-field>
+    </form>
+    <div class="btn-wraper">
+        <button mat-raised-button (click)="deleteProduct()" color="warn">Excluir</button>
+        <button mat-raised-button (click)="cancel()">Cancelar</button>
+    </div>
+</mat-card>
